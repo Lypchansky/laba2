@@ -1,3 +1,4 @@
+# Виконані завдання 1-4
 from bottle import Bottle, route, run, request, response
 from xml.etree.ElementTree import Element, tostring
 
