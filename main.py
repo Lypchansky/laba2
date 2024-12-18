@@ -13,7 +13,7 @@ def get_currency():
     if today is not None:
         return "USD - 41.5"
     else:
-        return "Будь ласка, вкажіть параметр ''сьогодні''."
+        return "Будь ласка, вкажіть параметр ``today``."
 
 @app.route("/content_type")
 def handle_request():
